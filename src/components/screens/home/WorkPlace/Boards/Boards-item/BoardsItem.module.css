@@ -1,0 +1,26 @@
+.boards_item {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    align-self: center;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    overflow: hidden;
+}
+
+.boards_item:nth-child(even):hover {
+    background-color: coral;
+}
+
+.boards_item:hover {
+    background-color: cornflowerblue;
+    opacity: 0.5;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.boards_item h1 {
+    font-size: 15px;
+}

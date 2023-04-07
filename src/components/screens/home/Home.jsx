@@ -1,6 +1,6 @@
-import Header from './Header'
+import Header from './Header/Header'
 import styles from './Home.module.css'
-import WorkPlace from './WorkPlace'
+import WorkPlace from './WorkPlace/WorkPlace'
 
 function Home() {
     return (

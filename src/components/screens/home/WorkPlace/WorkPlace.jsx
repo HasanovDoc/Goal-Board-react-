@@ -1,5 +1,5 @@
 import styles from './WorkPlace.module.css'
-import Boards from './Boards'
+import Boards from './Boards/Boards'
 
 function WorkPlace(){
     return(
