@@ -7,9 +7,8 @@ function BoardsItem(){
     return(
         <motion.div className={styles.boards_item} 
         whileHover={{ height: "auto" }}>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                 <div className={styles.item__info}>Hello</div>
-
+            <p>My first board</p>
+            <div className={styles.item__info}>Hello</div>
             
         </motion.div>
     )

@@ -8,6 +8,7 @@
     border-right: 0;
     border-color: black;
     overflow: hidden;
+    padding: 0px 5px;
 }
 
 .boards_item:nth-child(even):hover {
@@ -18,9 +19,10 @@
     background-color: cornflowerblue;
 }
 
-.boards_item h1 {
+.boards_item p {
     font-size: 15px;
     cursor: default;
+    margin-bottom: 5px;
 }
 
 .item__info {
