@@ -3,7 +3,27 @@
     height: 500px;
     width: 20%;
     display: flex;
+}
+
+.item_container {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+.hide_container {
+    width: 5%;
+    height: auto;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.hide_container:hover {
+    background-color: rgb(106, 98, 98);
+}
+
+.isHide {
+    transform: translateX(-100%);
 }
